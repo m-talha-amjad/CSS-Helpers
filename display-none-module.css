@@ -1,0 +1,24 @@
+/* #region display none component */
+
+[hidden] {
+  display: none !important;
+}
+.pi-hidden {
+  display: none !important;
+}
+@media screen and (min-width: 750px) {
+  .pi-medium-up-hide {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 989px) {
+  .pi-large-down-hide {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1479px) {
+  .pi-large-1480-down-hide {
+    display: none !important;
+  }
+}
+/* #endregion display none component */
